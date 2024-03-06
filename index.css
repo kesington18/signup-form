@@ -116,6 +116,7 @@ body{
 }
 
 .signup-form .terms{
+    /* border: 2px solid brown; */
     text-align: center;
     font-size: 14px;
 }
@@ -131,6 +132,7 @@ body{
         padding: 20px;
     }
     #main{
+        margin-block: 20px;
         display: flex;
         flex-direction: column;
         max-width: 100%;
@@ -143,12 +145,12 @@ body{
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     #main .head-text .head{
-        font-size: 32px;
-        margin-bottom: 30px;
+        font-size: 24px;
+        margin-bottom: 20px;
         text-align: center;
         max-width: 100%;
     }
@@ -161,6 +163,10 @@ body{
     #main .signup{
         width: 100%;
     }
+
+    .signup-form{
+        padding: 20px;
+    }
     
     #main .signup .trial{
         /* border: 2px solid blue; */
@@ -171,9 +177,13 @@ body{
         align-items: center;
         text-align: center;
     }
+
+    .signup-form button{
+        margin-bottom: 20px;
+    }
         
     .signup-form .terms{
-        padding: 20px;
+        padding: 0px;
     }
 }
 
